@@ -1,0 +1,100 @@
+
+html {
+    background-color: rebeccapurple;
+}
+
+#field {
+    width: 320px;
+    height: 300px;
+    font-size: 0;
+    
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    -moz-transform: translate3d(-50%, -50%, 0);
+    -ms-transform: translate3d(-50%, -50%, 0);
+    -o-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+}
+
+.piece {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: darkturquoise;
+    margin: 2px;
+    font-size: 36px;
+    text-align: center;
+    line-height: 100px;
+    cursor: move;
+}
+
+#isStart {
+    position: absolute;
+    left: 80%;
+    top: 80%;
+    width: 150px;
+    height: 50px;
+    font-size: 34px;
+}
+
+#num1 {
+    left: 65px;
+    top: 65px;
+    transform: translate3d(-50%, -50%, 0);
+}
+
+#num2 {
+    left: 180px;
+    top: 65px;
+    transform: translate3d(-50%, -50%, 0);
+}
+
+#num3 {
+    left: 295px;
+    top: 65px;
+    transform: translate3d(-50%, -50%, 0);
+}
+
+#num4 {
+    left: 65px;
+    top: 180px;
+    transform: translate3d(-50%, -50%, 0);
+}
+
+#num5 {
+    left: 180px;
+    top: 180px;
+    transform: translate3d(-50%, -50%, 0);
+}
+
+#num6 {
+    left: 295px;
+    top: 180px;
+    transform: translate3d(-50%, -50%, 0);
+}
+
+#num7 {
+    left: 65px;
+    top: 295px;
+    transform: translate3d(-50%, -50%, 0);
+}
+
+#num8 {
+    left: 180px;
+    top: 295px;
+    transform: translate3d(-50%, -50%, 0);
+}
+
+#num9 {
+    left: 295px;
+    top: 295px;
+    transform: translate3d(-50%, -50%, 0);
+    display: none;
+}
